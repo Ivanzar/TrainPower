@@ -1,0 +1,62 @@
+body
+{
+    margin: 20px auto;
+    max-width: 600px;
+    color: #263238;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#text-zone
+{
+    flex-grow: 1;
+}
+
+textarea
+{
+    margin-top: 20px;
+    padding: 10px;
+    
+    resize: none;
+    outline: none;
+    
+    border-radius: 5px;
+    flex: 1;
+}
+
+button
+{
+    height: 30px;
+    padding: 0 10px;
+
+    font-size: 0.8em;
+    border: 0;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    outline: 0;
+
+    text-transform: uppercase;
+
+    font-family: Roboto, sans-serif;
+
+    cursor: pointer;
+    
+    margin: 20px 0;
+}
+
+button:active
+{
+    /*background-color: rgb(47, 130, 193);*/
+
+    padding: 0 8px;
+    border: 2px solid #4caf50;
+    background: #fff;
+    color: #4caf50;
+}
+
+p, span
+{
+    font-size: 120%;
+}
