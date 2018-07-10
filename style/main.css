@@ -1,6 +1,6 @@
 body
 {
-    margin: 20px auto;
+    margin: 10px auto;
     max-width: 600px;
     color: #263238;
     
@@ -8,9 +8,8 @@ body
     flex-direction: column;
 }
 
-#text-zone
-{
-    flex-grow: 1;
+body *{
+    margin: 0 10px;
 }
 
 textarea
@@ -43,7 +42,7 @@ button
 
     cursor: pointer;
     
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 button:active
